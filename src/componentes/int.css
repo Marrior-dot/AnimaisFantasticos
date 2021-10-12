@@ -1,0 +1,60 @@
+.Intro-grid{
+	display: grid;
+	grid-template-rows: 2fr 10fr;
+	width: 77%;
+	margin: 0 auto;
+	overflow-x: hidden;
+}
+.Intro-grid>ul{
+	width: 50%;
+}
+.imgscroll{
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+.Allimgs{
+	display: flex;
+	height: 370px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	flex-direction: column;
+}
+.Allimgs::-webkit-scrollbar{
+	width:17px;
+}
+.Allimgs::-webkit-scrollbar-thumb{
+	height: 6rem;
+	background-color:#FB5; 
+	border: 4px solid #faf6ed;
+}
+.Allimgs img{
+	width: 60%;
+	align-self: flex-end;
+}
+#Animais{
+	font-size: 8.5rem;
+	line-height: 9rem;
+	font-family: 'Playfair Display SC', serif;;
+	font-weight: 400;
+	width: 40%;
+}
+.descripts>li>h4{
+	font-size: 1.5rem;
+	font-family:'IBM Plex Mono', monospace ;
+	color: #E54;
+	font-weight: 700;
+}
+.descripts h4:before{
+	content: ' ';
+	display: inline-block;
+	width: 40px;
+	margin-right: 10px;
+	height: 10px;
+	background-color: #FB5;
+}
+.descripts>li>p{
+	font-size: 1.5rem;
+}
+.descripts>li:nth-child(1)>h4{
+	margin-top: 0;
+} 
