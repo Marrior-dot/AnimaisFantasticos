@@ -32,7 +32,7 @@
 	align-self: flex-end;
 }
 #Animais{
-	font-size: 8.5rem;
+	font-size: calc(1vw + 65px);
 	line-height: 9rem;
 	font-family: 'Playfair Display SC', serif;;
 	font-weight: 400;
@@ -53,8 +53,28 @@
 	background-color: #FB5;
 }
 .descripts>li>p{
-	font-size: 1.7rem;
+	font-size: calc(1vw + 6px);
 }
 .descripts>li:nth-child(1)>h4{
 	margin-top: 0;
 } 
+
+@media screen and (max-width: 700px){
+	.Intro-grid{
+		margin-left: 0;
+		width: 95%;
+	}
+	#Animais{
+		font-size: calc(1vw + 40px);
+		line-height: normal;
+	}
+	.imgscroll{
+		grid-template-columns: 20% 80%;
+	}
+	.Allimgs{
+		margin-left: 0;
+	}
+	.descripts{
+		padding-left: 0;
+	}
+}

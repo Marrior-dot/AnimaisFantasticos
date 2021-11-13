@@ -21,3 +21,19 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+  public/logo192.png
+        public/logo512.png
+	public/.index.html.swp
+        src/.App.css.swp
+        src/.App.js.swp
+        src/.index.css.swp
+        src/.index.js.swp
+        src/componentes/.cont.css.swp
+        src/componentes/.contact.jsx.swp
+        src/componentes/.f.css.swp
+        src/componentes/.faq.jsx.swp
+        src/componentes/.int.css.swp
+	 .swp
+        src/.App.js.swp
+        src/componentes/.nav.css.swp
+        src/componentes/.navbar.jsx.swp

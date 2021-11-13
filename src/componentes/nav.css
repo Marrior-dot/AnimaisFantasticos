@@ -23,3 +23,43 @@ li{
 .Navbar li{
 	text-align: center;
 }
+.icon{
+	width: 50px;
+	height: 50px;
+	position: fixed;
+	left: 1%;
+	background-color:#FB5;
+	border-radius: 50%;
+}
+.menuH{
+	top: 50%;
+	left: 25%;
+	width: 25px;
+	height: 5px;
+	position: absolute;
+	transition: 0.5s;
+	background-color:#000;
+}
+.icon::before{
+	content: '';
+	background-color:#000;
+	height: 5px;
+	width: 25px;
+	position: absolute;
+	top: 12px;
+	left: 12.5px;
+}
+.icon::after{
+	content: '';
+	background-color:#000;
+	height: 5px;
+	width: 25px;
+	position: absolute;
+	bottom: 8px;
+	left: 12.5px;
+}
+@media screen and (max-width: 700px){
+	.Navbar{
+		margin-left: 0;
+	}
+}

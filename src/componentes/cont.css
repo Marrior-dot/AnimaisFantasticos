@@ -1,0 +1,60 @@
+.Contgrid{
+	display: grid;
+	grid-template-rows: 2fr 5fr;
+	width: 77%;
+	margin: 0 auto;
+	overflow-x: hidden;
+}
+.Contgrid img{
+	max-width: 30rem;
+	max-height: 40rem;
+	margin-left: 4rem;
+}
+.secgrid{
+	display: grid;
+	grid-template-columns: 50% 50rem;
+	margin: 0 auto;
+}
+.secgrid li{
+	font-size: 1.7rem;
+}
+.secgrid ul{
+	padding-left: 0;
+}
+.secgrid li::before{
+	content: '';
+	display: inline-block;
+	width: 40px;
+	height: 10px;
+	background-color: #FB5;
+	margin-right: 0;
+	transform: translateX(-10px)
+}
+#contacts{
+	font-size: calc(1vw + 65px);
+	line-height: 9rem;
+	font-family: 'Playfair Display SC', serif;;
+	font-weight: 400;
+	width: 40%;
+}
+@media screen and (max-width: 700px){
+	.Contgrid{
+		width: 95%;
+		margin-left: 0;
+	}
+	.secgrid{
+		display: flex;
+		flex-direction: column;
+	}
+	.secgrid ul{
+		align-self: center;
+	}
+	.secgrid img{
+		margin-left: 0;
+	}
+	#contacts{
+		font-size: calc(1vw + 50px);
+	}
+
+
+}

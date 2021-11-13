@@ -1,13 +1,12 @@
 .Faqgrid{
 	display: grid;
-	grid-template-rows: 1fr 2fr;
 	width: 77%;
 	margin: 0 auto;
 	overflow-x: hidden;
 	overflow-y: hidden;
 }
 #FAQ{
-	font-size: 8.5rem;
+	font-size: calc(1vw + 65px);
 	line-height: 9rem;
 	font-family: 'Playfair Display SC', serif;;
 	font-weight: 400;
@@ -47,5 +46,14 @@
 	}
 	.Listagrid{
 		grid-template-rows:5rem 7rem 5rem 7rem 5rem 7rem 5rem 7rem ;
+	}
+}
+@media screen and (max-width:700px){
+	.Faqgrid{
+		margin-left: 0;
+		width: 95%;
+	}
+	#FAQ{
+		font-size: calc(1vw + 50px);
 	}
 }

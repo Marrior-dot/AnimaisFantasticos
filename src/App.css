@@ -2,3 +2,9 @@
 	background-color:#faf6ed;
 	overflow-x: hidden;
 }
+.Apprincipal::-webkit-scrollbar{
+	width: 10px;
+}
+.Apprincipal::-webkit-scrollbar-thumb{
+	width: 20px;
+}

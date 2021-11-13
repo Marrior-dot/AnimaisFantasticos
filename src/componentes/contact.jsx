@@ -1,10 +1,12 @@
 import React from 'react'
 import Map from '../assets/mapa.png'
+import "./cont.css"
 
 function contact() {
 	return (
-		<div>
-		<h1 id = "contacts">Contatos</h1>
+		<div className="Contgrid">
+		<h1 id = "contacts">Contato</h1>
+		<div className="secgrid" >
 		<img src={Map} alt=""/>
 		<ul>
 			<li>contato@origamid.com</li>
@@ -12,6 +14,7 @@ function contact() {
 			<li>Rua do Conde, nº 21</li>
 			<li>Rio de Janeiro - RJ</li>
 		</ul>
+		</div>
 		</div>
 	);
 }
